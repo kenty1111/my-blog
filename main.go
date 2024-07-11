@@ -7,6 +7,7 @@ import (
 	"text/template"
 )
 
+// mainの関数
 func main() {
 	h := handler.New(
 		template.Must(template.ParseFiles("assets/index.html")),
